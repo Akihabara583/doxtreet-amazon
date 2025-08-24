@@ -1,0 +1,22 @@
+<!-- resources/views/components/application-logo.blade.php -->
+<svg <?php echo e($attributes->merge(['viewBox' => '0 0 80 80', 'fill' => 'none', 'xmlns' => 'http://www.w3.org/2000/svg'])); ?>>
+    <!-- Градиентный фон для премиального вида -->
+    <defs>
+        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#2563EB" />
+        </linearGradient>
+    </defs>
+    <rect width="80" height="80" rx="18" fill="url(#logoGradient)"/>
+
+    <!-- Буква "D" / Символ документа -->
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M26 22C26 20.8954 26.8954 20 28 20H46C52.6274 20 58 25.3726 58 32V48C58 54.6274 52.6274 60 46 60H28C26.8954 60 26 59.1046 26 58V22Z" fill="white"/>
+
+    <!-- Элемент закладки / страницы (сделан более контрастным) -->
+    <path d="M44 20H52C55.3137 20 58 22.6863 58 26V34L44 20Z" fill="#60A5FA"/>
+
+    <!-- Линии, символизирующие структуру документа (сделаны более жирными и заметными) -->
+    <path d="M34 38H50" stroke="#3B82F6" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M34 46H44" stroke="#3B82F6" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
+<?php /**PATH /home/1507933.cloudwaysapps.com/nkpgfkrnfq/public_html/resources/views/components/application-logo.blade.php ENDPATH**/ ?>
